@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light"> 
+    <!-- GO MY CODE
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button> -->
+     <nav class="navbar logo">
+      <img src="https://gomycode.tn/images/section2GMCLogo.png" alt="" width="60px">
+     
+    </nav>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mr-auto">
+
+            <li class="souhir">
+          <li class="nav-item active">
+            <a class="nav-link text-white"href="index.html"> HOME <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+             <a class="nav-link text-white" href="courses.HTML">COURSES</a>
+           </li>
+          <li class="nav-item active">
+              <a class="nav-link text-white" href="contact.html">CONTACTE <span class="sr-only">(current)</span></a>
+            </li>
+          
+          </li>
+         </a>
+          
+             <!-- <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Dropdown
+               </a>
+               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 <a class="dropdown-item" href="#">Action</a>
+                 <a class="dropdown-item" href="#">Another action</a>
+                 <div class="dropdown-divider"></div>
+                 <a class="dropdown-item" href="#">Something else here</a>
+               </div>
+             </li> -->
+             <!-- <li class="nav-item">
+               <a class="nav-link disabled" href="#">Disabled</a>
+             </li>
+           </ul>
+           <form class="form-inline my-2 my-lg-0">
+             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+           </form>
+         </div>
+       </nav>
+    <div >        
+   
+        <div id="header">
+            <h1>
+                Contact
+            </h1>
+    </div>
+    
+    </div> 
+    <form class="contact-form">
+      <div class="input-groupe">
+      <label>Name</label> 
+      <input type="text" placeholder="your name" class="input-contact" id="name"> 
+  </div>
+  <div class="input-groupe">
+      <label>Track</label>
+      <select class="input-contact" id="track">
+          <option>Web </option>
+          <option>Game</option>
+          <option>AI</option>
+      </select> 
+  </div>
+  <div class="input-groupe">
+      <label>Email address</label> 
+      <input type="email" placeholder="name@example.com" class="input-contact" id="email">
+  </div>
+  <div class="input-groupe">
+      <label>Phone number</label> 
+      <input type="number" placeholder="your phone Number" class="input-contact" id="number">
+  </div>
+  <div class="input-groupe">  
+      <input type="button" value="submit" class="submit" id="btnSubmit"> 
+  </div> 
+  </form>
+    <!-- <center>
+      
+    <h4 class="s2">Name</h4>
+    <input type="text" placeholder="your name"> 
+    <h4 class="s2">Track</h4>
+    <select name="" id="">
+        <option value="">web</option>
+        <option value="">game</option> 
+
+    </select>
+    <h4 class="s2">Email Adress</h4>
+<input type="text" placeholder="Your Email">
+<h4 class="s2">Phone Number</h4>
+<input type="text"placeholder number="Your Phone Number">
+<br><button>Submit</button>
+</center> -->
+
+
+</div> 
+
+</body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA3E2GdGPcNwyRrvyvmMteY498Q07tPXAw",
+    authDomain: "souhir-1ccc2.firebaseapp.com",
+    databaseURL: "https://souhir-1ccc2.firebaseio.com",
+    projectId: "souhir-1ccc2",
+    storageBucket: "souhir-1ccc2.appspot.com",
+    messagingSenderId: "597486509956",
+    appId: "1:597486509956:web:f286ff53fefea827db47d1",
+    measurementId: "G-KJLJEE0RLJ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-database.js"></script>
+<script src="Raed.js"></script>
+</html>
